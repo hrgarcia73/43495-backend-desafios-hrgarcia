@@ -25,7 +25,7 @@ app.get('/productoRandom', async(req, res) => {
     const maxId = 4; //tengo solo 4 productos con id de 1 a 4
     const numRandom = Math.floor(Math.random() * maxId);
 
-    /* Pido todos los productos */
+    /* Pido el producto con id generado de manera aleatoria */
     const productos = await contenedor.getById(numRandom);
 
     res.send(productos);
