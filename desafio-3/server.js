@@ -1,3 +1,11 @@
+/*
+    DESAFIO 3 - SERVIDOR EXPRESS
+    Se trata de un servidor express simple.
+
+    /productos : muestra todos los productos que hay en el archivo de productos.
+
+    /productoRandom : muestra un producto cuyo id fue generado al azar.
+*/
 //requerimos la clase contenedor
 const Contenedor = require("./classContenedor");
 const fs = require("fs");
